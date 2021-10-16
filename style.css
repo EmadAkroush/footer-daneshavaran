@@ -1,0 +1,19 @@
+.footer{
+    width: 100%;
+    height: 600px;
+
+}
+.sec1footer{
+    display: grid;
+}
+.sec2footer{
+    display: grid;
+}
+.footer-ul{
+    list-style-type: none;
+    color: white;
+}
+.footer-li{
+    float: right;
+}
+
