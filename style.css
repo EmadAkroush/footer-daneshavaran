@@ -1,19 +1,112 @@
+.custom-shape-divider-top-1634464976 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1634464976 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 103px;
+}
+
+.custom-shape-divider-top-1634464976 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
 .footer{
+    direction: rtl;
     width: 100%;
     height: 600px;
+    background-color: #61CE70;
 
+    
+
+}
+.container-footer{
+    width: 85%;
+    margin: 10px auto;
 }
 .sec1footer{
     display: grid;
+
+}
+.sec1footer{
+
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+
+    
 }
 .sec2footer{
     display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-column-gap: 10%;
+    margin: 20px 0;
+    color: white;
+
 }
 .footer-ul{
     list-style-type: none;
     color: white;
+    margin: 90px auto 0 auto;
+    
+
+
 }
 .footer-li{
     float: right;
+    list-style-type: none;
+    color: white;
+    padding: 20;
+    
 }
+.li-a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.logo-img{
+    display: block;
+    margin: 90px auto 0 auto;
+}
+.mother-nemad{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 2%;
 
+}
+.nemad-footer1{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.nemad-footer2{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+.nemad-footer3{
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    border-radius: 30px;
+
+}
