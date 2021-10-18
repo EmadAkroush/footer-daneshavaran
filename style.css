@@ -1,5 +1,5 @@
 .custom-shape-divider-top-1634464976 {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -30,7 +30,7 @@
 .footer{
     direction: rtl;
     width: 100%;
-    height: 600px;
+    height: 500px;
     background-color: #61CE70;
 
     
@@ -53,8 +53,8 @@
 }
 .sec2footer{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-column-gap: 10%;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 5%;
     margin: 20px 0;
     color: white;
 
@@ -90,23 +90,48 @@
 
 }
 .nemad-footer1{
-    width: 100%;
-    height: 170px;
+    width: 100px;
+    height: 130px;
     background-color: white;
     border-radius: 30px;
 
 }
 .nemad-footer2{
-    width: 100%;
-    height: 170px;
+    width: 100px;
+    height: 130px;
     background-color: white;
     border-radius: 30px;
 
 }
 .nemad-footer3{
-    width: 100%;
-    height: 170px;
+    width: 100px;
+    height: 130px;
     background-color: white;
     border-radius: 30px;
 
+}
+.social-mother{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 60%;
+    grid-gap: 2%;
+}
+.down-the-footer{
+    display: block;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+.footer-hr{
+    margin-top: -15;
+    opacity: 0.4;
+}
+.social{
+    width: 40px;
+    height: 40px;
+}
+.eshterak-footer{
+    width: 40%;
+    height: 150px;
+    background-color: #61CE70;
 }
